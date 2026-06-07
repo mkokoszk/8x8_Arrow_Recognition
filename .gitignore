@@ -1,0 +1,68 @@
+# --- Systemowe ---
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+
+# --- IDE i Edytory ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# --- Zależności ---
+node_modules/
+jspm_packages/
+vendor/
+
+# --- Logi i Bazy danych ---
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.sqlite
+
+# === MODELSIM / VHDL ===
+work/
+transcript
+*.wlf
+*.mti
+*.mpf
+modelsim.ini
+
+# PYTHON CACHE
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# === LATEX ===
+*.aux
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Środowiska wirtualne (jeśli używasz)
+venv/
+.venv/
+env/
+
+# --- Zmienne środowiskowe i sekretne ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+secrets.json
+
+# --- Kompilacja/Budowanie ---
+dist/
+build/
+bin/
+obj/
+
