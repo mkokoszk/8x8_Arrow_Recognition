@@ -39,4 +39,4 @@ wave zoom full
 ```
 
 ### Expected Output
-Once the simulation completed. The Wave window will display the timing waveforms, demonstrating the `cmd_valid` flag asserting and the correct output command being locked on the bus (`cmd_ou`).
+Once the simulation completed. The Wave window will display the timing waveforms, demonstrating the `cmd_valid` flag asserting and the correct output command being locked on the bus (`cmd_out`).
